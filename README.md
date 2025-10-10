@@ -1,4 +1,4 @@
-Takes IPv4 address and does a fast lookup of the active internet services using this address. It relies on a separate process that populates memory from the Splynx API that is intended to be ran on a schedule. Could be used for other fields that Splynx API doesn't natively handle very well.
+Takes IPv4 address and does a fast lookup of the active internet services using this address. It relies on a separate process that populates memory from the Splynx API that is intended to be ran on a schedule. Could be used for other fields that Splynx API doesn't natively handle very well.  Obviously the data retrieved by the index.hml / api.php is only as up-to-date as the last time splynx_exporter_cli.php is ran.  If necessary, you'd have to add code to verify result from the fast lookup against your _current__ Splynx data.
 -----------------------------
 
 ![Alt text](/screenshot.jpg?raw=true "Screenshot")
